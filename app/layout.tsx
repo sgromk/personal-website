@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gabriel Kinshuk | Computational Research & Data Engineering",
-  description: "MS Business Analytics & MS Biomedical Engineering. Computational researcher specializing in data pipelines, ML infrastructure, and research automation.",
+  title: "Gabriel Kinshuk | Machine Learning Engineering & Data Science",
+  description: "Building rigorous, scalable data pipelines and machine learning systems for high-stakes research and business environments. Specializing in computer vision, research automation, and mathematical optimization.",
 };
 
 export default function RootLayout({
