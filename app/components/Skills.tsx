@@ -2,19 +2,19 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "Engineering",
-      skills: ["Python", "SQL", "TypeScript", "Git", "Linux/Unix", "Docker", "CI/CD Pipelines"]
+      skills: ["Python", "Java","SQL", "Git", "Linux/Unix", "Software Architecture", "Docker", "Testing & Validation", "Algorithm Design (Graphs, Search, Optimization)", "Software Development"]
     },
     {
       category: "Machine Learning",
-      skills: ["PyTorch", "TensorFlow", "Computer Vision", "MLOps", "Model Training", "Hyperparameter Tuning"]
+      skills: ["PyTorch", "TensorFlow", "Computer Vision", "Natural Language Processing", "Multimodal Learning", "Model Evaluation & Experimentation", "ML Pipeline Design"]
     },
     {
       category: "Data Engineering",
-      skills: ["ETL Pipelines", "Data Orchestration", "Apache Spark", "Airflow", "Data Warehousing", "Stream Processing"]
+      skills: ["Snowflake", "Data Pipelines & Automation", "Research Workflow Engineering", "Data Parsing & Validation", "Feature Engineering", "Data Warehousing", "Shell Scripting (Bash, Batch)"]
     },
     {
       category: "Analytics & Statistics",
-      skills: ["Statistical Modeling", "Predictive Analytics", "A/B Testing", "Experimental Design", "Time Series Analysis"]
+      skills: ["Time Series Analysis", "Bayesian Modeling", "A/B Testing", "Forecasting", "Mathematical Optimization", "Risk Modeling"]
     }
   ];
 
@@ -23,7 +23,7 @@ export default function Skills() {
       <div className="container mx-auto max-w-5xl">
         <div className="space-y-12">
           <div>
-            <h2 className="text-3xl font-bold text-zinc-100 mb-2">Technical Skills (TODO)</h2>
+            <h2 className="text-3xl font-bold text-zinc-100 mb-2">Technical Skills</h2>
             <div className="h-1 w-16 bg-blue-500" />
           </div>
 
