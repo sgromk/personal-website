@@ -28,7 +28,7 @@ export default function Projects() {
     },
     {
       title: "Protein Parser",
-      githubUrl: "https://github.com/sgromk",
+      githubUrl: "https://https://github.com/sgromk/protein-parser.com/sgromk",
       description: "Bioinformatics tool for parsing and analyzing protein sequence data with structural validation.",
       technologies: ["Python", "Bioinformatics", "Data Parsing"]
     },
