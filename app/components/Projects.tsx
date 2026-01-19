@@ -5,8 +5,8 @@ export default function Projects() {
     {
       title: "TileShift",
       githubUrl: "https://github.com/sgromk/TileShift",
-      description: "A tile-shifting puzzle game with a GUI and level creator, built using the Model-View-Controller and Builder design patterns.",
-      technologies: ["Python", "PyGame", "Algorithms"]
+      description: "Puzzle game with procedural level generation using BFS state-space search and solvability verification. Features flood-fill algorithms, comprehensive testing, and MVC architecture.",
+      technologies: ["Java", "Algorithms", "Software Testing", "Software Engineering"]
     },
     {
       title: "NYC Transit Analysis",
