@@ -34,7 +34,7 @@ export default function Projects() {
     },
     {
       title: "Austin Restaurant Whitespace",
-      githubUrl: "https://github.com/sgromk",
+      githubUrl: "https://github.com/sgromk/austin-restaurant-whitespace",
       description: "Market analysis identifying underserved culinary niches in the Austin restaurant ecosystem.",
       technologies: ["Python", "Market Analysis", "Data Mining", "Visualization"]
     }
