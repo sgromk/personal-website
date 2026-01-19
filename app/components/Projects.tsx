@@ -12,25 +12,25 @@ export default function Projects() {
       title: "NYC Transit Analysis",
       githubUrl: "https://github.com/sgromk/nyc-transit-analysis",
       description: "A Tournament of Models for NYC MTA ridership forecasting. Evaluates ARIMA and Bayesian AR(7) to predict subway, bus, and bridge demand for transit supply chain optimization and capacity planning.",
-      technologies: ["Python", "Pandas", "Data Visualization", "SQL"]
+      technologies: ["R", "Time Series", "Statistical Modeling", "Forecasting", "Bayesian Methods"]
     },
     {
       title: "Applied Optimization for Business",
       githubUrl: "https://github.com/sgromk/optimization-projects",
       description: "Collection of mathematical optimization projects focusing on Linear Programming (LP), Nonlinear Programming (NLP), and integer-based decision modeling.",
-      technologies: ["Python", "Linear Programming", "Operations Research"]
+      technologies: ["Mathematical Optimization", "Operations Research", "Linear & Integer Programming", "Risk Management", "Gurobi"]
     },
     {
       title: "Multimodal Price Prediction",
       githubUrl: "https://github.com/sgromk/multimodal-price-prediction",
       description: "A multimodal machine learning pipeline to predict ASOS apparel prices by fusing tabular metadata, NLP (BERT), and Computer Vision (ConvNeXt) in a Late-Fusion architecture to capture brand prestige and aesthetic value.",
-      technologies: ["PyTorch", "Computer Vision", "NLP", "Time Series"]
+      technologies: ["PyTorch", "Computer Vision", "NLP", "Multimodal Learning", "Applied Machine Learning"]
     },
     {
       title: "Protein Parser",
       githubUrl: "https://github.com/sgromk/protein-parser",
       description: "Bioinformatics tool for parsing and analyzing protein sequence data with structural validation.",
-      technologies: ["Python", "Bioinformatics", "Data Parsing"]
+      technologies: ["Python", "Bioinformatics", "Data Parsing", "Scientific Computing"]
     },
     {
       title: "Austin Restaurant Whitespace",
