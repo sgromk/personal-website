@@ -35,8 +35,8 @@ export default function Projects() {
     {
       title: "Austin Restaurant Whitespace",
       githubUrl: "https://github.com/sgromk/austin-restaurant-whitespace",
-      description: "Market analysis identifying underserved culinary niches in the Austin restaurant ecosystem.",
-      technologies: ["Python", "Market Analysis", "Data Mining", "Visualization"]
+      description: "Market analysis identifying underserved Austin restaurant segments by transforming unstructured images into semantic labels. Features a computer vision-to-NLP pipeline using TF-IDF and Cosine Similarity to evaluate aesthetic consistency and market positioning.",
+      technologies: ["Python", "Market Analysis", "Computer Vision", "NLP", "Unstructured Data Analytics", "API Integration","Statistical Modeling"]
     }
   ];
 
