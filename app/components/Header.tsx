@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-[#0d1117]/95 backdrop-blur-sm z-50 border-b border-zinc-800">
+    <header className="fixed top-0 w-full backdrop-blur-sm z-50 border-b border-zinc-800" style={{ backgroundColor: 'var(--portfolio-bg-main)', opacity: 0.95 }}>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14">
           <Link href="/" className="flex items-center">
@@ -35,6 +35,9 @@ export default function Header() {
             </Link>
             <Link href="#skills" className="text-zinc-400 hover:text-zinc-100 transition-colors text-sm">
               Skills
+            </Link>
+            <Link href="#recent-activities" className="text-zinc-400 hover:text-zinc-100 transition-colors text-sm">
+              Activities
             </Link>
           </div>
 
@@ -65,6 +68,9 @@ export default function Header() {
             </Link>
             <Link href="#skills" onClick={() => setIsMenuOpen(false)} className="block py-2 text-zinc-400 hover:text-zinc-100 text-sm">
               Skills
+            </Link>
+            <Link href="#recent-activities" onClick={() => setIsMenuOpen(false)} className="block py-2 text-zinc-400 hover:text-zinc-100 text-sm">
+              Activities
             </Link>
           </div>
         )}

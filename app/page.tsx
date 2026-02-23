@@ -4,11 +4,12 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import RecentActivities from './components/RecentActivities';
 import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0d1117]">
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--portfolio-bg-main)' }}>
       <Header />
       <main className="pt-14">
         <Hero />
@@ -16,6 +17,7 @@ export default function Home() {
         <Education />
         <Projects />
         <Skills />
+        <RecentActivities />
       </main>
       <Footer />
     </div>

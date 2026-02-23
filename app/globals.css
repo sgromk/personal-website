@@ -44,6 +44,23 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Portfolio Blue Colors */
+  --color-blue-400: var(--portfolio-blue-400);
+  --color-blue-500: var(--portfolio-blue-500);
+  --color-blue-600: var(--portfolio-blue-600);
+  --color-blue-700: var(--portfolio-blue-700);
+  
+  /* Portfolio Zinc Colors */
+  --color-zinc-100: var(--portfolio-zinc-100);
+  --color-zinc-200: var(--portfolio-zinc-200);
+  --color-zinc-300: var(--portfolio-zinc-300);
+  --color-zinc-400: var(--portfolio-zinc-400);
+  --color-zinc-500: var(--portfolio-zinc-500);
+  --color-zinc-600: var(--portfolio-zinc-600);
+  --color-zinc-700: var(--portfolio-zinc-700);
+  --color-zinc-800: var(--portfolio-zinc-800);
+  --color-zinc-900: var(--portfolio-zinc-900);
 }
 
 html {
@@ -117,6 +134,35 @@ html {
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+/* Portfolio Custom Color Scheme */
+/* 🎨 To change colors, edit app/config/colors.ts (not this file) */
+/* These variables automatically sync with the TypeScript config. */
+/* For manual updates, remember to update BOTH files. */
+:root {
+  /* Main Background */
+  --portfolio-bg-main: #0d1117;
+
+  /* Blue Accent Colors */
+  --portfolio-blue-400: #60a5fa;
+  --portfolio-blue-500: #3b82f6;
+  --portfolio-blue-600: #2563eb;
+  --portfolio-blue-700: #1d4ed8;
+  --portfolio-blue-500-30: #3b82f64d;
+
+  /* Zinc Grayscale */
+  --portfolio-zinc-100: #f4f4f5;
+  --portfolio-zinc-200: #e4e4e7;
+  --portfolio-zinc-300: #d4d4d8;
+  --portfolio-zinc-400: #a1a1aa;
+  --portfolio-zinc-500: #71717a;
+  --portfolio-zinc-600: #52525b;
+  --portfolio-zinc-700: #3f3f46;
+  --portfolio-zinc-800: #27272a;
+  --portfolio-zinc-900: #18181b;
+  --portfolio-zinc-900-50: #18181b80;
+  --portfolio-zinc-900-70: #18181bb3;
 }
 
 @layer base {
