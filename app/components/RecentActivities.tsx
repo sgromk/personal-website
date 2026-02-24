@@ -1,34 +1,44 @@
 export default function RecentActivities() {
   const activities = [
     {
-      date: "March 2026",
-      title: "Hackathon Name",
-      description: "Brief description of what you built or accomplished at the hackathon."
-    },
-    {
-      date: "February 2026",
-      title: "Trip to City Name",
-      description: "Quick note about the trip or what made it memorable."
+      date: "January 2026",
+      title: "Google Computer Vision Capstone",
+      description: "Began an industry-sponsored capstone focused on action recognition for EHS incident detection in surveillance video, including structured report automation and roadmap development for temporal modeling."
     },
     {
       date: "January 2026",
-      title: "Conference/Event Name",
-      description: "What you learned or key takeaways from the event."
-    },
-        {
-      date: "March 2026",
-      title: "Hackathon Name",
-      description: "Brief description of what you built or accomplished at the hackathon."
+      title: "Trip to the Bay Area",
+      description: "Visited San Francisco and San Jose and spent time with friends working in tech."
     },
     {
-      date: "February 2026",
-      title: "Trip to City Name",
-      description: "Quick note about the trip or what made it memorable."
+      date: "December 2025",
+      title: "Trip to India",
+      description: "Traveled to Delhi and Haryana for my sister’s wedding and spent time with family."
     },
     {
-      date: "January 2026",
-      title: "Conference/Event Name",
-      description: "What you learned or key takeaways from the event."
+      date: "October 2025",
+      title: "Roo Hackathon",
+      description: "Participated in the Roo Hackathon and collaborated on a rapid prototype under time constraints."
+    },
+    {
+      date: "July 2025",
+      title: "Relocated to Austin for MSBA at UT Austin",
+      description: "Moved to Austin to begin the M.S. in Business Analytics at UT Austin, focusing on machine learning, optimization, and applied statistics."
+    },
+    {
+      date: "April 2025",
+      title: "Trip to Birmingham, AL",
+      description: "Visited Dotdash Meredith test kitchens and went hiking outside the city."
+    },
+    {
+      date: "December 2024",
+      title: "Master’s Thesis Defense",
+      description: "Successfully defended my M.S. thesis on protein structure prediction using statistical modeling over biological sequences."
+    },
+    {
+      date: "March 2024",
+      title: "American Chemical Society Conference",
+      description: "Presented research applying statistical methods to protein structure prediction using sequence-based features."
     }
   ];
 
